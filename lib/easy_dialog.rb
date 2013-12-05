@@ -23,7 +23,7 @@ module EasyDialog
         Curses.attroff(Curses::A_COLOR)
         Curses.addstr(@question)
         @choises.each_with_index do |c,i|
-          Curses.setpos i/num + 1, i*width
+          Curses.setpos i/num + 1, i%num*width
           if i == highlight
             Curses.attrset(Curses.color_pair(1))
           else
