@@ -1,6 +1,11 @@
 # EasyDialog
 
-TODO: Write a gem description
+Easy CLI dialog
+
+## Sample
+
+    EasyDialog::Choises.new("Question?", ["Answer1","Answer2","Answer3"]).ask # => "Answer1"
+
 
 ## Installation
 
@@ -15,10 +20,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install easy_dialog
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
