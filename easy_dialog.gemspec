@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = EasyDialog::VERSION
   gem.authors       = ["juntaki"]
   gem.email         = ["me@juntaki.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Easy CLI dialog}
+  gem.summary       = %q{Easy CLI dialog}
+  gem.homepage      = "https://github.com/juntaki/easy_dialog"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
