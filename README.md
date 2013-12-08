@@ -5,6 +5,7 @@ Easy CLI dialog
 ## Sample
 
     EasyDialog::Choises.new("Question?", ["Answer1","Answer2","Answer3"]).ask # => "Answer1"
+    EasyDialog::Checkbox.new("Question?", ["Answer1","Answer2","Answer3"]).ask # => ["Answer1","Answer3"]
 
 
 ## Installation
